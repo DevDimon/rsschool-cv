@@ -1,4 +1,4 @@
-# 1. My fullname is Dmitrii Nebolsin #
+# 1. Dmitrii Nebolsin #
 
 # 2. Contacts: #
 	- devdimonpok@gmail.com
