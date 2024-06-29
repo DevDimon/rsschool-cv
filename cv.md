@@ -1,16 +1,16 @@
 # 1. My fullname is Dmitrii Nebolsin #
 
 # 2. Contacts: #
-	* devdimonpok@gmail.com
-	* devdim311(discord)
+	- devdimonpok@gmail.com
+	- devdim311(discord)
 
 # 3. About me: # 
     I’m a third-year student of ASU (Adyghe State University). The fourth semester has already finished and it’s getting harder and harder for me not to feel I’m getting better day after day. That is the main reason why I’ve decided to try something new (rs school). I hope my diligence and the courses will help me to obtain useful knowledge.
 
 # 4. Skills: #
-	* C++
-	* Python
-	* Blender
+	- C++
+	- Python
+	- Blender
 
 # 5. Code example: #
 ```
