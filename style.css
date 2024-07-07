@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+}
+
+.header-info {
+    display: flex;
+}
+
+.header-avatar {
+    width: 296px;
+    height: 265px;
+    overflow: hidden;
+}
+
+.header-avatar img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+}
+
+.nav-link a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link a:hover {
+    color: #4d2323;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.section {
+    width: 50%;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #829985;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+}
+
+.link {
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+}
+  
+.link:hover {
+    color: #5d7260;
+}
+
+.course-logo {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/rs-school-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.footer-item {
+    padding: 0 20px;
+}
