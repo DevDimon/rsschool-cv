@@ -68,3 +68,33 @@ body {
 .nav-link a:hover {
     color: #141a21;
 }
+
+.link {
+    text-decoration: none;
+    color: #3d5a80;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: #22374f;
+}
+
+.course-logo {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/rs-school-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.footer-item {
+    padding: 0 20px;
+}
